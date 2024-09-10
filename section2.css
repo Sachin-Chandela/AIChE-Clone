@@ -1,0 +1,113 @@
+.section2{
+    box-sizing: border-box;
+    font-family: 'Avenir-Local', Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 0px;
+    gap: 70px;
+    /* background-color: ; */
+
+}
+.sec2-box2{
+    display: flex;
+    gap: 20px;
+}
+.combine{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.sec2-box1{
+    font-size: 50px;
+    color: #009ade;
+}
+.sec2-images{
+    width: 180px;
+    margin-left: 10px;
+}
+.sec2-image-below-text{
+    color: #009ade;
+    font-size: 30px;
+    font-weight: 600;
+}
+.sec2-imgclass{
+    text-align: center;
+}
+.sec2-below{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    word-spacing: 2px;
+    color: #2c2a27;
+}
+.sec2-a{
+    color: black;
+    text-decoration: none;
+}
+
+@media(max-width:1100px){
+    .section2{
+        padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Avenir-Local', Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 75px 0px;
+    gap: 70px;
+    /* background-color: ; */
+
+}
+    .sec2-box2{
+        padding-right: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .combine{
+        padding-left: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .sec2-box1{
+        padding-left: 10px;
+        box-sizing: border-box;
+        font-size: 50px;
+        color: #009ade;
+    }
+    .sec2-images{
+        box-sizing: border-box;
+        width: 180px;
+        margin-left: 10px;
+    }
+    .sec2-image-below-text{
+        text-align: center;
+        color: #009ade;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .sec2-imgclass{
+        text-align: center;
+    }
+    .sec2-below{
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.8;
+        word-spacing: 1px;
+        color: #2c2a27;
+    }
+    .sec2-a{
+        color: black;
+        text-decoration: none;
+    }
+}
